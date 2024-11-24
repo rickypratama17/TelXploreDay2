@@ -1,0 +1,55 @@
+h1{
+    text-align: center;
+    color : linear-gradient(to bottom, red, blue);
+    font-family: "Parkinsans", sans-serif;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+h2{
+    font-family: Arial;
+}
+.list-card{
+    display: flex;
+    
+}
+.card-1{
+    flex-grow: 5;
+}
+.card-2{
+    flex-grow: 5;
+}
+.card-3{
+    flex-grow: 8;
+}
+.card{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: blue;
+    padding: 10px;
+    border : 5px solid black;
+    background-color: linear-gradient(to bottom, red, blue);
+    text-transform: uppercase;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+}
+
+img{
+    /* width: 200px;
+    height: 100px; */
+    object-fit: fill;
+    aspect-ratio: 16/9;
+    filter: blur(10px);
+}
+
+.judul{
+    color: black;
+}
+#tanggal{
+    color: aqua;
+}
